@@ -1,11 +1,12 @@
+import Image from "next/image";
 
 
 export default function AboutUs() {
 
     return(
         <section className="contact mt-5">
-        <div>
-            <h1> Unsere Unternehmen</h1>
+        <div className="about-description">
+            <h1> Unser Unternehmen</h1>
 
             <h4>
                 Weber Gebäudedienstleistung wurde 2019 von Sven Weber in Schwäbisch Gmünd gegründet und basiert auf seiner jahrelangen Erfahrung in der Baubranche sowie einer abgeschlossenen Berufsausbildung. Während der Corona-Krise hat das Unternehmen wertvolle Erfahrungen gesammelt und ist stolz darauf, ein vertrauenswürdiger Partner für seine Kunden zu sein.
@@ -32,5 +33,10 @@ export default function AboutUs() {
             </h4>
 
         </div>
+            <div className="row justify-content-center">
+                <div className="col-6 d-flex justify-content-center mt-4">
+                    <Image src="/picture/sven.jpg" alt="Sven Weber" width={500} height={500} style={{borderRadius: '40%/60%', border: '5px solid black'}} />
+                </div>
+            </div>
         </section>
     )}

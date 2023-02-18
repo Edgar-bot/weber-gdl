@@ -1,5 +1,6 @@
 import Slider from "@/components/Slider";
 import {Col, Container, Row} from "react-bootstrap";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
                                 <div className="icon"><i className="bx bxl-dribbble"></i></div>
                                 <h4 className="title"><a href="">Glasreinigung</a></h4>
                                 <p className="description">Mit unserer professionellen Glasreinigung sorgen wir für strahlende Sauberkeit und klare Sicht in Ihren Räumlichkeiten, egal ob Bürogebäude oder Privathaus.</p>
+                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                    <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -45,10 +49,17 @@ export default function Home() {
             Ihre Vorteile
         </div>
 
-        <div className="my-col-class shadow my-3 bg-info" xs={12} md={6}>
-            Unsere Bewertung
+            <Image src={'/picture/bannerCleaning.jpg'}  alt={"Glasreinigung"} width={1000} height={330}
+                   style={{ float: 'right', marginLeft: '20px' }}/>
 
+
+        <div className="row justify-content-center">
+            <div className="my-col-class shadow my-3 col-xs-12 col-md-6 mx-auto">
+                <iframe src="https://www.instagram.com/reel/CouKr_6O3nq/embed/" width="800" height="800"
+                        frameBorder="1" scrolling="yes" allowFullScreen></iframe>
+            </div>
         </div>
+
     </div>
 
   )
