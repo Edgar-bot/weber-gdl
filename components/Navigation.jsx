@@ -28,13 +28,12 @@ const Navigation = () => {
     return (
         <div className={"shadow fixed-top p-2 mb-2 bg-white"}>
 
-            <div className={"d-flex justify-content-start align-items-center"}>
-                <Link href={"/"} legacyBehavior>
-                    <a>
-                        <Image src={'/picture/logo.jpg'} alt={'logo'} width={250} height={125} />
-                    </a>
-                </Link>
-            </div>
+            <Link href={"/"} legacyBehavior>
+                <a>
+                    <Image src={'/picture/logo.jpg'} alt={'logo'} width={250} height={100} />
+                </a>
+            </Link>
+
 
             <nav id="main-nav" className={isScrolled ? "sticky-top d-none" : ""}>
                 <ul className="nav nav-pills justify-content-end">
