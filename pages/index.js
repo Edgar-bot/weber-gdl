@@ -17,32 +17,40 @@ export default function Home() {
                     <div className="container" data-aos="fade-up">
                         <div className="row">
                             <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
-                                <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
+                                <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon"><i className="bx bxl-dribbble"></i></div>
-                                    <h4 className="title"><a href="/ourService">Glasreinigung</a></h4>
-                                    <p className="description">Mit unserer professionellen Glasreinigung sorgen wir für strahlende Sauberkeit und klare Sicht in Ihren Räumlichkeiten, egal ob Bürogebäude oder Privathaus.</p>
-                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '9t0px'}}>
-                                        <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
-                                <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
-                                    <div className="icon"><i className="bx bx-file"></i></div>
-                                    <h4 className="title"><a href="">Hausmeisterdienst</a></h4>
-                                    <p className="description">Unser zuverlässiger Hausmeisterservice kümmert sich um alle anfallenden Aufgaben rund um Ihr Gebäude, von der regelmäßigen Reinigung über Reparatur- und Wartungsarbeiten bis hin zur Betreuung der Grünanlagen.</p>
+                                    <h4 className="title"><a href="">Glasreinigung</a></h4>
                                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
                                         <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
                                     </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <p className="description">Mit unserer professionellen Glasreinigung sorgen wir für strahlende Sauberkeit
+                                            und klare Sicht in Ihren Räumlichkeiten, egal ob Bürogebäude oder Privathaus.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
-                                <div className="icon-box" data-aos="fade-up" data-aos-delay="300">
+                                <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
+                                    <div className="icon"><i className="bx bx-file"></i></div>
+                                    <h4 className="title"><a href="">Treppenhausreinigung</a></h4>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <Image src={'/picture/treppenhausreinigung.png'}  alt={"Treppenhausreinigung"} width={120} height={120}/>
+                                    </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <p className="description">Mit unserer professionellen Glasreinigung sorgen wir für strahlende Sauberkeit
+                                            und klare Sicht in Ihren Räumlichkeiten, egal ob Bürogebäude oder Privathaus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
+                                <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon"><i className="bx bx-tachometer"></i></div>
                                     <h4 className="title"><a href="">Baureinigung</a></h4>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <Image src={'/picture/baureinigung.png'}  alt={"Baureinigung"} width={120} height={120}/>
+                                    </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
                                     <p className="description">Ob nach Renovierung, Umbau oder Neubau – unser professionelles Team sorgt dafür, dass Ihre Baustelle in kürzester Zeit sauber und sicher ist, damit Sie sich voll und ganz auf die Fertigstellung konzentrieren können.</p>
-                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
-                                        <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
                                     </div>
                                 </div>
                             </div>
@@ -50,9 +58,12 @@ export default function Home() {
                                 <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon"><i className="bx bx-world"></i></div>
                                     <h4 className="title"><a href="">Unterhaltsreinigung</a></h4>
-                                    <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
+
                                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
-                                        <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
+                                        <Image src={'/picture/unterhaltsreinigung.png'}  alt={"Unterhaltsreinigung"} width={120} height={120}/>
+                                    </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
                                     </div>
                                 </div>
                             </div>
@@ -60,10 +71,12 @@ export default function Home() {
                             <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
                                 <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon"><i className="bx bx-world"></i></div>
-                                    <h4 className="title"><a href="">Unterhaltsreinigung</a></h4>
-                                    <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
+                                    <h4 className="title"><a href="">Fassadenreinigung</a></h4>
                                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
-                                        <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
+                                        <Image src={'/picture/fassadenreinigung.png'}  alt={"Fassadenreinigung"} width={120} height={120}/>
+                                    </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
                                     </div>
                                 </div>
                             </div>
@@ -71,10 +84,12 @@ export default function Home() {
                             <div className="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5">
                                 <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon"><i className="bx bx-world"></i></div>
-                                    <h4 className="title"><a href="">Unterhaltsreinigung</a></h4>
-                                    <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
+                                    <h4 className="title"><a href="">Grundreinigung</a></h4>
                                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
-                                        <Image src={'/picture/glass-cleaning.png'}  alt={"Glasreinigung"} width={120} height={120}/>
+                                        <Image src={'/picture/grundreinigung.png'}  alt={"Grundreinigung"} width={120} height={120}/>
+                                    </div>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px'}}>
+                                        <p className="description">Mit unserer regelmäßigen Unterhaltsreinigung halten wir Ihre Räumlichkeiten jederzeit in Top-Zustand, damit Sie und Ihre Mitarbeiter sich wohlfühlen und auf das Wesentliche konzentrieren können.</p>
                                     </div>
                                 </div>
                             </div>
