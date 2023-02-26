@@ -34,7 +34,7 @@ export default function Slider() {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <section id="hero" className="d-flex align-items-center">
+                    <section id="hero1" className="d-flex align-items-center">
                         <div className="container" data-aos="zoom-out" data-aos-delay="100">
                             <h1>Herzlich Willkommen bei <span>Weber</span></h1>
                             <div className="d-flex">
