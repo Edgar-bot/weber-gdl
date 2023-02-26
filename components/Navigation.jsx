@@ -26,11 +26,11 @@ const Navigation = () => {
     const router = useRouter();
 
     return (
-        <div className={"shadow fixed-top p-2 mb-2 bg-white"}>
+        <div className={"shadow fixed-top p-2 mb-2 bg-newBlue bg-opacity-25"}>
 
             <Link href={"/"} legacyBehavior>
                 <a>
-                    <Image src={'/picture/logo.jpg'} alt={'logo'} width={250} height={100} />
+                    <Image src={'/picture/logoTrans.png'} alt={'logo'} width={250} height={100} />
                 </a>
             </Link>
 

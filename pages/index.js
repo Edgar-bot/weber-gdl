@@ -7,10 +7,9 @@ import Link from "next/link";
 export default function Home() {
 
     return (
-        <div style={{ marginTop: '150px' }}>
+        <div style={{ marginTop: '156px' }}>
             <Slider/>
 
-            <div className="b-example-divider"></div>
 
             <div>
                 <section id="featured-services" className="featured-services">
@@ -98,7 +97,7 @@ export default function Home() {
                 </section>
             </div>
 
-            <div className="b-example-divider"></div>
+            <div className="b-example-divider "></div>
 
             <div className="container col-xxl-8 px-4 py-5">
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -122,11 +121,11 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="b-example-divider"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#106eea" fill-opacity="1" d="M0,288L16,256C32,224,64,160,96,122.7C128,85,160,75,192,64C224,53,256,43,288,64C320,85,352,139,384,165.3C416,192,448,192,480,186.7C512,181,544,171,576,165.3C608,160,640,160,672,160C704,160,736,160,768,154.7C800,149,832,139,864,133.3C896,128,928,128,960,138.7C992,149,1024,171,1056,170.7C1088,171,1120,149,1152,144C1184,139,1216,149,1248,170.7C1280,192,1312,224,1344,202.7C1376,181,1408,107,1424,69.3L1440,32L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path></svg>
 
             <Accordion/>
 
-            <div className="b-example-divider"></div>
+            <div className="b-example-divider "></div>
 
             <div className="container my-5">
                 <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
@@ -144,7 +143,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="b-example-divider"></div>
+
 
         </div>
     )
